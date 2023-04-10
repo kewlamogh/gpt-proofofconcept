@@ -1,0 +1,4 @@
+2023-04-06T11:36:02.234567Z ERROR [Server] Connection reset by peer (errno: 104)
+2023-04-06T11:36:02.234567Z ERROR [Server] Got error reading communication packets
+2023-04-06T11:36:02.234567Z ERROR [Server] Aborting
+2023-04-06T11:38:42.345678Z ERROR [Server] Connection to database timed out

@@ -1,0 +1,4 @@
+2023-04-06T11:35:18.789012Z INFO MyApp: Successfully connected to network device at IP address 192.168.1.1
+2023-04-06T11:35:19.012345Z ERROR MyApp: Failed to retrieve device configuration: Connection refused
+2023-04-06T11:36:29.345678Z INFO MyApp: Successfully retrieved device configuration
+2023-04-06T11:38:38.123456Z ERROR MyApp: Failed to establish connection to network device at IP address 192.168.1.1: Connection timed out
