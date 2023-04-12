@@ -6,7 +6,7 @@ from replit import db  # simple Replit database
 directory = 'logs'  # sets which directory to iterate through
 logs = []  # defining the log list
 # comment
-# comment 2
+# comment 3
 
 # iterates through the items in the directory
 for filename in os.listdir(directory):
