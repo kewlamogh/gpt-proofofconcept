@@ -29,13 +29,6 @@ else:
   completion = openai.ChatCompletion.create(
       # specifies the model that we want to use, in this case GPT 3.5 Turbo
       model="gpt-3.5-turbo",
-      messages=[{"role": "user", "content": f"Return this in a  {ch}"}
-                for ch in logs]
-  )  # creating the API model and giving it messages
-
-  completion = openai.ChatCompletion.create(
-      # specifies the model that we want to use, in this case GPT 3.5 Turbo
-      model="gpt-3.5-turbo",
       messages=[{"role": "user", "content": f"Understand these logs and diagnose a problem and a solution, also using the logs previously given. {ch}"} for ch in logs]
   )  # creating the API model and giving it messages
 
